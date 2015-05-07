@@ -11,9 +11,9 @@ description: java学习笔记（1）	简单的学生成绩管理程序，输入�
 
 
 
-### 1. 	Exception in thread "main" java.lang.NullPointerException
+## Exception in thread "main" java.lang.NullPointerException
 	
- [stackoverflow上的解答](http://stackoverflow.com/questions/5958012/exception-in-thread-main-java-lang-nullpointerexception)
+[stackoverflow上的解答](http://stackoverflow.com/questions/5958012/exception-in-thread-main-java-lang-nullpointerexception)
 
 `It means that you are trying to access / call a method on an object which is null.`
 
@@ -37,8 +37,12 @@ description: java学习笔记（1）	简单的学生成绩管理程序，输入�
 		pass
 	}
 ```
-	[stackoverflow上的提问](http://stackoverflow.com/questions/22278892/whats-the-differences-between-initializing-an-array-of-objects-and-initializing)
+
+
+[stackoverflow上的提问](http://stackoverflow.com/questions/22278892/whats-the-differences-between-initializing-an-array-of-objects-and-initializing)
  	关于对象数组初始化的问题，
+
+
     
 ```
 	Student[] stu = new Student[count];
@@ -62,7 +66,7 @@ stu = new Student[count];
 - 分配`count`个Student类的内存空间，`stu`是其引用。
 - 每一个元素都是`object`类型，值为`NULL`
 - 此时`stu[i]`对象并未生成
-# 
+
 对于单个对象的情况：
 ```java
 Student stu1 = new Student();
@@ -73,7 +77,7 @@ Student stu1 = new Student();
 `constructor`:`构造函数`
 <br/>
 
-### 2. java: 无法从静态上下文中引用非静态 变量 this
+## java: 无法从静态上下文中引用非静态 变量 this
 	用static修饰的成员是属于类的，在static的方法里可以用类名直接调用；
 	不用static修饰的成员是属于具体实例对象的，需要用对象名调用，且在static的方法里不可以调用。
 
@@ -85,7 +89,7 @@ Student stu1 = new Student();
 ```
 <br/>
 
-### 3. Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+## Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
 
 错误原因：数组越界
 
