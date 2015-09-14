@@ -2,9 +2,8 @@
 title: 软件杯小结
 date: 2014-05-30 10:49:50
 updated: 2015-02-05 12:43:03
-categories: uncategorized
+categories: 总结
 tags:
-comments: false
 description: 
 
 ---

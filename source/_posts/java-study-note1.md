@@ -1,9 +1,9 @@
 title: java学习笔记（1）
 date: 2014-03-08 21:24:23
-categories: java学习笔记
+categories: java-study-note
 tags: java
-description: java学习笔记（1）	简单的学生成绩管理程序，输入输出，排序 对象数组初始化 intelliJ IDEA
-
+description: 数组初始化相关错误
+keywords: java,java数组,无法从静态上下文中引用非静态变量&nbsp;this,intelliJ IDEA,简单的学生成绩管理程序
 ---
 错误处理：
 

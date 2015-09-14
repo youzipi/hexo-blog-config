@@ -5,6 +5,8 @@ categories: uncategorized
 tags:
 comments: false
 description: 
+keywords: hexo debug,hexo命令
+
 ---
 一些blog中没有提到的：
 

@@ -93,5 +93,5 @@ deploy:
   type: git
   message: update
   repo: 
-    github: git@github.com:youzipi/youzipi.github.io.git,master
+    #github: git@github.com:youzipi/youzipi.github.io.git,master
     gitcafe: git@gitcafe.com:youzipi/youzipi.git,gitcafe-pages
