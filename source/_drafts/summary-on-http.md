@@ -3,8 +3,8 @@ date: 2015-09-20 21:33:07
 categories: 
 tags: 
 comments: true
-description:《图解HTTP》笔记，顺带复习http相关知识点
-keywords: 图解HTTP,IP协议,ARP,TCP,
+description: 《图解HTTP》笔记，顺带复习http相关知识点
+keywords: 图解HTTP,IP协议,ARP,TCP
 ---
 
 TCP在网络OSI的七层模型中的第四层——Transport层
