@@ -91,7 +91,7 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  message: update
-  repo: 
+  repo:
+    coding: git@git.coding.net:youzipi/youzipi.git,coding-pages
     #github: git@github.com:youzipi/youzipi.github.io.git,master
-    gitcafe: git@gitcafe.com:youzipi/youzipi.git,gitcafe-pages
+    #gitcafe: git@gitcafe.com:youzipi/youzipi.git,gitcafe-pages

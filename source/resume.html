@@ -1,362 +1,227 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-<title>resume</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<style type="text/css">
-/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
-/* Author: Nicolas Hery - http://nicolashery.com */
-/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
-/* Source: https://github.com/nicolahery/markdownpad-github */
-
-/* RESET
-=============================================================================*/
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
 }
-
-/* BODY
-=============================================================================*/
-
 body {
-  font-family: Helvetica, arial, freesans, clean, sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-  color: #333;
-  background-color: #fff;
-  padding: 20px;
-  max-width: 960px;
-  margin: 0 auto;
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
 }
-
-body>*:first-child {
-  margin-top: 0 !important;
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
 }
-
-body>*:last-child {
-  margin-bottom: 0 !important;
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
 }
-
-/* BLOCKS
-=============================================================================*/
-
-p, blockquote, ul, ol, dl, table, pre {
-  margin: 15px 0;
+th {
+	padding: 5px 10px;	
 }
-
-/* HEADERS
-=============================================================================*/
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 20px 0 10px;
-  padding: 0;
-  font-weight: bold;
-  -webkit-font-smoothing: antialiased;
-}
-
-h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
-  font-size: inherit;
-}
-
-h1 {
-  font-size: 28px;
-  color: #000;
-}
-
-h2 {
-  font-size: 24px;
-  border-bottom: 1px solid #ccc;
-  color: #000;
-}
-
-h3 {
-  font-size: 18px;
-}
-
-h4 {
-  font-size: 16px;
-}
-
-h5 {
-  font-size: 14px;
-}
-
-h6 {
-  color: #777;
-  font-size: 14px;
-}
-
-body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
-  margin-top: 10px;
-}
-
-/* LINKS
-=============================================================================*/
 
 a {
-  color: #4183C4;
-  text-decoration: none;
+    color: #0069d6;
 }
-
 a:hover {
-  text-decoration: underline;
+    color: #0050a3;
+    text-decoration: none;
 }
-
-/* LISTS
-=============================================================================*/
-
-ul, ol {
-  padding-left: 30px;
+a img {
+    border: none;
 }
-
-ul li > :first-child, 
-ol li > :first-child, 
-ul li ul:first-of-type, 
-ol li ol:first-of-type, 
-ul li ol:first-of-type, 
-ol li ul:first-of-type {
-  margin-top: 0px;
+p {
+    margin-bottom: 2px;
 }
-
-ul ul, ul ol, ol ol, ol ul {
-  margin-bottom: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
 }
-
-dl {
-  padding: 0;
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
 }
-
-dl dt {
-  font-size: 14px;
-  font-weight: bold;
-  font-style: italic;
-  padding: 0;
-  margin: 15px 0 5px;
+h2 {
+    font-size: 24px;
 }
-
-dl dt:first-child {
-  padding: 0;
+h3 {
+    font-size: 18px;
 }
-
-dl dt>:first-child {
-  margin-top: 0px;
+h4 {
+    font-size: 16px;
 }
-
-dl dt>:last-child {
-  margin-bottom: 0px;
+h5 {
+    font-size: 14px;
 }
-
-dl dd {
-  margin: 0 0 15px;
-  padding: 0 15px;
+h6 {
+    font-size: 13px;
 }
-
-dl dd>:first-child {
-  margin-top: 0px;
-}
-
-dl dd>:last-child {
-  margin-bottom: 0px;
-}
-
-/* CODE
-=============================================================================*/
-
-pre, code, tt {
-  font-size: 12px;
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
-}
-
-code, tt {
-  margin: 0 0px;
-  padding: 0px 0px;
-  white-space: nowrap;
-  border: 1px solid #eaeaea;
-  background-color: #f8f8f8;
-  border-radius: 3px;
-}
-
-pre>code {
-  margin: 0;
-  padding: 0;
-  white-space: pre;
-  border: none;
-  background: transparent;
-}
-
-pre {
-  background-color: #f8f8f8;
-  border: 1px solid #ccc;
-  font-size: 13px;
-  line-height: 19px;
-  overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px;
-}
-
-pre code, pre tt {
-  background-color: transparent;
-  border: none;
-}
-
-kbd {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    background-color: #DDDDDD;
-    background-image: linear-gradient(#F1F1F1, #DDDDDD);
-    background-repeat: repeat-x;
-    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
-    border-image: none;
-    border-radius: 2px 2px 2px 2px;
-    border-style: solid;
-    border-width: 1px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 10px;
-    padding: 1px 4px;
-}
-
-/* QUOTES
-=============================================================================*/
-
-blockquote {
-  border-left: 4px solid #DDD;
-  padding: 0 15px;
-  color: #777;
-}
-
-blockquote>:first-child {
-  margin-top: 0px;
-}
-
-blockquote>:last-child {
-  margin-bottom: 0px;
-}
-
-/* HORIZONTAL RULES
-=============================================================================*/
-
 hr {
-  clear: both;
-  margin: 15px 0;
-  height: 0px;
-  overflow: hidden;
-  border: none;
-  background: transparent;
-  border-bottom: 4px solid #ddd;
-  padding: 0;
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 10px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
 }
 
-/* TABLES
-=============================================================================*/
-
-table th {
-  font-weight: bold;
-}
-
-table th, table td {
-  border: 1px solid #ccc;
-  padding: 6px 13px;
-}
-
-table tr {
-  border-top: 1px solid #ccc;
-  background-color: #fff;
-}
-
-table tr:nth-child(2n) {
-  background-color: #f8f8f8;
-}
-
-/* IMAGES
-=============================================================================*/
-
-img {
-  max-width: 100%
-}
 </style>
+<title>吴乾泰</title>
+
 </head>
 <body>
 <h2>吴乾泰</h2>
+
 <ul>
-<li>E-mail: 	wuqiantai@gmail.com</li>
-<li>手机：	(+86)156-5100-8685	</li>
-<li>Github:https://github.com/youzipi</li>
-<li>Blog:http://youzipi.me/</li>
-</ul>
-<h2>教育背景</h2>
-<ul>
-<li>2012.9至今
-南京信息工程大学 软件工程 专业 </li>
-</ul>
-<h2>技能水平</h2>
-<ul>
-<li>熟悉JAVA，Python</li>
-<li>有MySQL，Oracle使用经验</li>
-<li>熟悉git使用</li>
-<li>熟悉基本的数据结构，算法</li>
-<li>了解Linux基本操作</li>
-<li>熟悉Spring，ibatis</li>
-<li>基本的英文文档阅读能力，CET-6：463</li>
-</ul>
-<h2>个人经历</h2>
-<ul>
-<li>
-<h5>2013.10~</h5>
-<p>课余学习Python相关技术，写过一些玩具级应用，用python写过一些作业，课程设计。具体用过的技术：</p>
-<ul>
-<li>科学计算：numpy+maltplotlib</li>
-<li>爬虫：BeautifulSoup</li>
-<li>web框架：Django，Flask</li>
-<li>桌面应用：PyGame，PyQt</li>
-</ul>
-</li>
-<li>
-<h5>2014.4~2014.8</h5>
-<p>参加第三届中国软件杯，进入决赛
-个人负责了用PyQt编写Windows桌面客户端，实现根据URL抓取网页中新闻标题，内容，正文图片并封装好存入服务器数据库，以供Android端读取。网页解析主要使用BeautifulSoup库配合正则表达式实现。</p>
-</li>
-<li>
-<h5>2014.9~2014.12</h5>
-<p>参加学院项目组，学习Java web以及JS,CSS,做了一些小组件，期间主要使用jQuery，Bootstrap相关组件，深入学习了JS面向对象相关知识。</p>
-</li>
-<li>
-<h5>2014.12~2015.3</h5>
-<p>和学院老师合作开发了一个轻型Web框架，主要实现</p>
-<ul>
-<li>通过java反射机制和配置文件的方式实现json,java bean和数据库字段之间的映射，SQL的映射（相当于ibatis功能的子集）</li>
-<li>简单的ORM</li>
-<li>日志，简单的过滤器</li>
-</ul>
-</li>
-<li>
-<h5>2015.5~2015.7</h5>
-<p>参与校外创业团队的校园交易平台开发，使用struts和hibernate进行后台开发</p>
-</li>
-<li>
-<h5>2015.7至今</h5>
-<p>在焦点科技实习，从事开发工作，参与了公司的面向企业的采购系统的开发，使用Spring MVC，ibatis</p>
-</li>
-</ul>
-<h2>获奖情况</h2>
-<ul>
-<li>第三届中国软件杯，决赛优秀奖</li>
+<li><p>E-mail:   wuqiantai@gmail.com</p></li>
+<li><p>手机： (+86)156-5100-8685</p></li>
+<li><p>Github:https://github.com/youzipi</p></li>
+<li><p>Blog:http://youzipi.me/</p></li>
 </ul>
 
+
+<h3>教育背景</h3>
+
+<ul>
+<li>2012.9至今</li>
+</ul>
+
+
+<p>南京信息工程大学 软件工程 专业</p>
+
+<h3>技能水平</h3>
+
+<ul>
+<li><p>熟悉JAVA，Python</p></li>
+<li><p>有MySQL，Oracle使用经验</p></li>
+<li><p>熟悉git使用</p></li>
+<li><p>熟悉基本的数据结构，算法</p></li>
+<li><p>了解Linux基本操作</p></li>
+<li><p>熟悉Spring，MyBatis</p></li>
+<li><p>基本的英文文档阅读能力，CET-6</p></li>
+</ul>
+
+
+<h3>个人经历</h3>
+
+<h5>2013.10~</h5>
+
+<p>课余学习Python相关技术，写过一些玩具级应用，用python写过一些作业，课程设计。具体用过的技术：1.科学计算：numpy+maltplotlib 2.爬虫：BeautifulSoup 3.web框架：Django，Flask</p>
+
+<h5>2014.4~2014.8</h5>
+
+<p>参加第三届中国软件杯，进入决赛</p>
+
+<p>个人负责了用PyQt编写Windows桌面客户端，实现根据URL抓取网页中新闻标题，内容，正文图片并封装好存入服务器数据库，以供Android端读取。网页解析主要使用BeautifulSoup库配合正则表达式实现。</p>
+
+<h5>2014.9~2014.12</h5>
+
+<p>参加学院项目组，学习Java web以及JS,CSS,做了一些小组件，期间主要使用jQuery，Bootstrap相关组件，深入学习了JS面向对象相关知识。</p>
+
+<h5>2014.12~2015.3</h5>
+
+<p>和学院老师合作开发了一个轻型Web框架，主要实现</p>
+
+<ul>
+<li><p>通过java反射机制和配置文件的方式实现json,java bean和数据库字段之间的映射，SQL的映射（相当于ibatis功能的子集）</p></li>
+<li><p>简单的ORM</p></li>
+<li><p>简单的过滤器</p></li>
+</ul>
+
+
+<h5>2015.7~2015.9</h5>
+
+<p>在焦点科技实习，参与“百卓采购网”开发，开始接触Spring MVC，ibatis</p>
+
+<h5>2015.12~至今</h5>
+
+<p>在千米网实习，从事java开发，在项目中尝试使用了java8</p>
 </body>
 </html>
-<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
