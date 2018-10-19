@@ -45,7 +45,7 @@ quora上的回答：
 
 
  
-##refer
+## refer
 
 [多范式编程语言－以Swift为例](http://www.infoq.com/cn/articles/multi-paradigm-programming-language-swift)
 

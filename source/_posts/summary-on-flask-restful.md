@@ -11,14 +11,12 @@ keywords: restful,flask，flask-restful
 
 - Uniform Interface
 - Stateless
-- Cacheable	
+- Cacheable
 - Client-Server
-- Layered System 	#分层系统 多层server
-- Code on Demand 	#最小化
-
+- Layered System #分层系统 多层server
+- Code on Demand #最小化
 
 > 默认下，RequestParser 试着从 flask.Request.values，以及 flask.Request.json 解析值。
-
 
 查看了一下json在flask\wrappers.py#Request类中
 values在werkzeug\wrappers.py#BaseRequest类中

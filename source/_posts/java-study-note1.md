@@ -1,10 +1,11 @@
 title: java学习笔记（1）
 date: 2014-03-08 21:24:23
-categories: java-study-note
-tags: java
+categories: java
+tags: 
 description: 数组初始化相关错误
 keywords: java,java数组,无法从静态上下文中引用非静态变量&nbsp;this,intelliJ IDEA,简单的学生成绩管理程序
 ---
+
 错误处理：
 
 

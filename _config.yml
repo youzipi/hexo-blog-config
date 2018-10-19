@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Youzipi
+title: 旧鱼日记
 subtitle: 没有一天应该被牺牲
 description: youzipi的个人博客
 author: youzipi
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: pacman
+theme: next
 stylus:
   compress: true
 

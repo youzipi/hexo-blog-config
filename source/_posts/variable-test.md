@@ -11,11 +11,12 @@ keywords: hexo debug,hexo命令
 一些blog中没有提到的：
 
 发布草稿
+
 ```
 $ hexo publish <filename>
 ```
-缩写：hexo p
 
+缩写：hexo p
 
 ```
 $ hexo clean

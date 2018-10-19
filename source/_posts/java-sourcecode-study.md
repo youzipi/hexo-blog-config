@@ -5,13 +5,16 @@ tags: java
 comments: true
 description:  
 keywords: java源码,parseInt,valueOf
+
 ---
+
 在51CTO上看java视频的时候，看到了`parseInt`这个函数，是`Integer`的方法，
 看到了`valueOf`这个函数，是`String`的方法，
+
 ```java
-	int num = 100;
-	//String s = String(num);
-	String s = String.valueOf(num);
+  int num = 100;
+  //String s = String(num);
+  String s = String.valueOf(num);
 ```
 
 在`String.java`中：
@@ -25,7 +28,7 @@ keywords: java源码,parseInt,valueOf
 `Integer.java`:
 
 ```java
-	//Integer.java
+//Integer.java
         public static String toString(int i) {
                 if (i == Integer.MIN_VALUE)
                 return "-2147483648";
@@ -69,8 +72,9 @@ keywords: java源码,parseInt,valueOf
 为了提高效率，使用了`查表(空间换时间)`和`位运算`
 
 用到的数组
+
 ```java
-	//Integer.java
+//Integer.java
         final static int [] sizeTable = { 9, 99, 999, 9999, 99999, 999999, 9999999,
                 99999999, 999999999, Integer.MAX_VALUE };
 
