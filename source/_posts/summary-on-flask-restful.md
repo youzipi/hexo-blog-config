@@ -1,7 +1,9 @@
 title: flask-restful
 date: 2015-06-04 19:47:12
 categories: flask
-tags: flask,restful
+tags: 
+- flask
+- restful
 comments: true
 description: flask+restful开发整理
 keywords: restful,flask，flask-restful
