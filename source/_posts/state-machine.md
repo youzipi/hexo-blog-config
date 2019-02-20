@@ -1,5 +1,5 @@
 
-title: 【review-项目】使用有限状态机管理客户状态，操作日志的实现
+title: 【review-项目】售前 CRM 项目中 有限状态机的使用，及操作日志的实现
 date: 2019-02-16 16:58:02
 updated: 2019-02-16 16:57:57
 categories: review
@@ -8,8 +8,7 @@ tags:
 - FSM
 - parser
 - 切面
-description:
-
+description: 使用 有限状态机 管理客户的状态变更。同时，使用 AOP 在操作状态变更的时候，进行日志记录。
 ---
 
 # 状态机
