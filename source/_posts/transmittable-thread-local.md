@@ -9,7 +9,7 @@ tags:
 description: 解决因使用 TransmittableThreadLocal 导致的线程数据逸出。ThreadLocal，ITL，TTL 的原理解析。
 
 ---
-定义一些缩写：
+alias：
 TransmittableThreadLocal: TTL
 InheritableThreadLocal: ITL
 

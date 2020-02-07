@@ -5,8 +5,6 @@ comments: false
 ---
 ###关于我
 
-**坐标**：南京
-Java，Python
 
 
 [Reusme](../resume.html "简历")
