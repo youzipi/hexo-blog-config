@@ -1190,10 +1190,10 @@ hexo-generator-index@^0.2.0:
     hexo-pagination "0.0.2"
     object-assign "^4.0.1"
 
-hexo-generator-sitemap@^1.0.1:
+hexo-generator-sitemap@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-sitemap/-/hexo-generator-sitemap-1.2.0.tgz#3018f8d7d1e2e42b3f71a65a7316ffcf583bc3f3"
-  integrity sha1-MBj419Hi5Cs/caZacxb/z1g7w/M=
+  integrity sha512-w6fVOKNNxe6/YFc8py1aExZKi/HasO5iH02kLYgNLk/ltH2+3JPZWsoC3SZr+j2YvvjA9dIS6gzyHEoqF8KrUg==
   dependencies:
     minimatch "^3.0.0"
     nunjucks "^2.3.0"
